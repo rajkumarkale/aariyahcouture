@@ -1,0 +1,30 @@
+{
+  "name": "aariyahcouture",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "1.6.10",
+    "angular-animate": "1.7.4",
+    "angular-aria": "1.7.4",
+    "angular-cookies": "1.7.4",
+    "angular-messages": "1.7.4",
+    "angular-resource": "1.7.4",
+    "angular-route": "1.4.0",
+    "angular-sanitize": "1.7.4",
+    "angular-touch": "1.7.4",
+    "angular-ui-router": "^1.0.20"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.4.0"
+  },
+  "appPath": "app",
+  "moduleName": "aariyahcoutureApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
